@@ -1,15 +1,20 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "javascript",
-    "backed"
-  ],
-  "author": "avinash chavan",
-  "license": "ISC",
-  "description": ""
+   "name": "backend",
+   "version": "1.0.0",
+   "type": "module",
+   "main": "index.js",
+   "scripts": {
+      "dev": "nodemon src/index.js"
+   },
+   "keywords": [
+      "javascript",
+      "backed"
+   ],
+   "author": "avinash chavan",
+   "license": "ISC",
+   "description": "",
+   "devDependencies": {
+      "nodemon": "^3.1.10",
+      "prettier": "^3.6.2"
+   }
 }
